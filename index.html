@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
   <meta charset="UTF-8">
@@ -10,28 +10,25 @@
 </head>
 
 <body>
-  <div class="container-box">
+  <div class="wrapper">
     <img src="img/carro-driver.jpg" alt="Motorista">
-    <div class="box">
-      <h2>Carro vs Uber</h2>
-      <p id="caption">Cálculo do custo da viagem</p>
-      <p>Valor da gasolina</p>
-      <label for="">R$</label>
-      <input id="txt1" type="number"><br>
+    <div class="container-box">
+      <h1>Carro vs Uber</h1>
+      <h2>Cálculo do custo da viagem</h2>
+      <label>Valor da gasolina hoje/ <strong>R$</strong></label>
+      <input id="txt1" type="number">
 
-      <p>Distância aproximada</p>
+      <label>Distância aproximada/ <strong>Km</strong></label>
       <input id="txt2" type="number">
-      <label for="">Km</label><br>
 
-      <p>Valor do estacionamento</p>
-      <label for="">R$</label>
-      <input id="txt3" type="number"><br>
+      <label>Valor do estacionamento/ <strong>R$</strong></label>
+      <input id="txt3" type="number">
 
       <button id="btn">Calcular</button>
       <p id="resultCarro"></p>
       <p id="resultUber"></p>
 
-      <p id="obs">*Considerando o litro de gasolina percorrer 10,6km e UBER X o valor de R$ 1,60/km</p>
+      <p id="footer-information">*Considerando o litro de gasolina percorrer 10,6km e UBER X o valor de R$ 1,60/km</p>
     </div>
   </div>
   <script src="script.js"></script>
